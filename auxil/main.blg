@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[72] biber-darwin:340> INFO - === Mon Jan 23, 2023, 21:01:51
+[247] Utils.pm:409> ERROR - Cannot find 'main.bcf'!
+[247] Biber.pm:135> INFO - ERRORS: 1
