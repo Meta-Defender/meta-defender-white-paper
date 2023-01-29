@@ -1,47 +1,25 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Wenneker Article
-% LaTeX Template
-% Version 2.0 (28/2/17)
-%
-% This template was downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Authors:
-% Vel (vel@LaTeXTemplates.com)
-% Frits Wenneker
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 \documentclass[10pt, a4paper, twocolumn]{article} % 10pt font size (11 and 12 also possible), A4 paper (letterpaper for US letter) and two column layout (remove for one column)
 \linespread{1.1} % Line spacing
-\input{structure.tex} % Specifies the document structure and loads requires packages
-
+\input{structure} % Specifies the document structure and loads requires packages
 %----------------------------------------------------------------------------------------
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
-
 \title{Meta Defender} % The article title
-
 \author{
-	\authorstyle{Alvin Marston\textsuperscript{1,2,3} and Vincent Jaipur\textsuperscript{2,3}} % Authors
+	\authorstyle{alvin@metadefender.finance} % Authors
+	\newline
+	\authorstyle{angie.sheng@metadefender.finance}
+	\newline
+	\authorstyle{vincent@metadefender.finance}
 	\newline\newline % Space before institutions
-	\textsuperscript{1}\institution{Universidad Nacional Autónoma de México, Mexico City, Mexico}\\ % Institution 1
-	\textsuperscript{2}\institution{University of Texas at Austin, Texas, United States of America}\\ % Institution 2
-	\textsuperscript{3}\institution{\texttt{LaTeXTemplates.com}} % Institution 3
+	%\textsuperscript{1}\institution{Universidad Nacional Autónoma de México, Mexico City, Mexico}\\ % Institution 1
+	%\textsuperscript{2}\institution{University of Texas at Austin, Texas, United States of America}\\ % Institution 2
+	%\textsuperscript{3}\institution{\texttt{LaTeXTemplates.com}} % Institution 3
 }
-
-% Example of a one line author/institution relationship
-%\author{\newauthor{John Marston} \newinstitution{Universidad Nacional Autónoma de México, Mexico City, Mexico}}
-
 \date{\today} % Add a date here if you would like one to appear underneath the title block, use \today for the current date, leave empty for no date
-
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -65,165 +43,55 @@ MetaDefender serves as a pioneer in creating a permissionless platform for risk/
 %----------------------------------------------------------------------------------------
 
 \section{Background}\label{sec:background}
-
-Since DeFi's inception in 2020, more than 5.7 billion dollars\footnote{https://rekt.news/leaderboard/} have been lost due to hacking attacks or contract faults.
-Furthermore, the depreciation of LUNA and the collapse of FTX harm the crypto world.
-The crypto realm is unmanageable and fascinating, like a wild horse.
-The threats we face must not be underestimated.
-
-We are now in the Web3 Age of Discovery, fearless of hardships, fearless of ships that are not strong enough, not technologically advanced enough, but we will always take risks, break away from the stale comfort zone, return to the great seafaring era, write amazing music in the deathly unknown, and establish our own order.
+\input{paragraphs/background}
 
 %------------------------------------------------
 
-\section{Introduction}
-
-In this paper, we present MetaDedender, a novel automated protocol for trading insurance deployed in blockchains.
-Prior to the protocols before, we present several advantages:
-
-\begin{itemize}
-	\item \textit{Option like pricing model} : We modified the option pricing model to make it acceptable for buying and selling policies. The pricing model will automatically compute the price of each insurance based on the policy's period and coverage.
-	\item \textit{EpochManagement in trading} : The epoch is included to prevent lengthy loops in computation.
-	We divided the timeline into discrete epochs so that others might deposit and withdraw independently.
-	We can simply compute how much one's asset is locked and how much one receives in incentives using the epoch.
-	\item \textit{Rug pull token collection} : Unlike other risk-coverage protocols.
-	MetaDefender assesses policyholder claims and collects rug pull tokens from these policyholders to rescue the rug pull community.
-	With all of these rug pull tokens locked, we will play a significant part in securing the project and helping to rebuild the community.
-\end{itemize}
+\section{Introduction}\label{sec:introduction}
+\input{paragraphs/introduction}
 
 %------------------------------------------------
 
 \section{Solution Overview}\label{sec:solution-overview}
+\input{paragraphs/solution-overview}
 
-The workflow of the underwriting, buying, and settlement process, as well as the claim procedure, is depicted in the two charts below.
-Here are the main parts of the system.
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{workflow_process_on.jpg} % Figure image
-	\caption{MetaDefender Workflow} % Figure caption
-	\label{workflow} % Label for referencing with \ref{bear}
-\end{figure}
-
-\begin{itemize}
-    \item main pool: The key component of the system.
-	The (total value locked)TVL in the pool is made up of three components: the underwriters' assets given, the premium paid by policyholders, and the unfrozen assets temporarily held for some underwriters' early departures.
-	\item insurance pricing model: The premium computation portion.
-	It employs the American binary option formula to estimate the insurance premium using the policy duration and policy coverage as input parameters.
-	\item non-fungible certificate/policy: The NFT is responsible for the liquidity certificate and policy.
-	The NFT is coined and transmitted to the user when the user underwrites/purchases insurance.
-	The NFT adheres to the ERC721 standard, and users can sell their liquidity at any moment.
-	\item risk reserve: Because preserving underwriters' capital SAFU is vital, a portion of the mining rewards will be transferred to the risk reserve pool.
-	If the risk situation occurs and policyholders apply for claims, the protocol will initially use the funds in the risk reserve pool rather than the main pool.
-	If the funds are inadequate to cover all claims, the main pool will step in to pay the rest of money, putting the underwriters' capital at risk.
-	\item DAO: The DAO is made up of numerous stakeholder groups, including the MetaDefender team, insurance specialists, the EVM safety team, and DEF hodlers.
-	They vote in the DAO voting system to determine if we will approve the claim after a thorough investigation of the issue.
-\end{itemize}
-
-%------------------------------------------------
-
-\section{Pricing Model}\label{sec:pricing-model}
-
-Marcus and Shaked examined the value of FDIC deposit insurance as an option in 1984 and utilized the option pricing model to calculate the cost of insurance.
-Following that, Rolm and Verma in 1986, Laeven in 2002, and Pennachi and Miehael in 2003 conducted more study on insurance and option comparisons.
-
-The DeFi insurance market, like the traditional insurance market, will pay either a defined amount of money known as policy coverage or nothing at all.
-If the risk/rug pull occurred during the time designated by the policy buyer, the policy buyer will get the claim if the application is granted by the DAO; otherwise, the underwriters will claim the premium and the policy buyer will receive nothing.
-This scenario is quite similar to the American binary option.
-If the underlying price reaches the strike price before the expiration period, the option can be exercised at any moment before the expiry time.
-
-\subsection{Initialization}\label{subsec:initialization}
-
-Before a certain DeFi project is placed on the MetaDefender, Our team will thoroughly evaluate the project's safety, such as contract audit.
-We'll start by estimating the likelihood of the hack/dePeg/rug pull.
-Then we'll create an American binary option model with the same likelihood of hitting the strike price and add it to the smart contract.
-These parameters will be inaccurate when initiated, however they will be changed by insurance buyers and underwriters in the market.
-
-\subsection{Standard Coverage}\label{subsec:standard-coverage}
-
-The insurance price impact is strongly related to the coverage.
-It is simple to calculate that purchasing coverage for 10,000 USDT would result in a bigger price effect than purchasing coverage for 100 USDT.
-
-The insurance coverage is calculated by the number of SCs, which is a predefined constant in the smart contract.
-
-\begin{equation}
-	N = \frac{C}{SC}\label{eq:equation}
-\end{equation}
-
-Where N is the amount of SCs, C is the coverage, and SC represents the preset standard coverage.
-
-For example, if Alice purchases 10000USDT coverage and Bob purchases 2000USDT coverage, and the SC is set at 1000USDT, we may say Alice purchases 10SCs and Bob purchases 2SCs.
-
-SC indicates the sensitivity of a particular insurance market.
-If the SC is set very low, even a tiny amount of money could have a significant influence on the insurance premium, and vice versa.
-If the DeFi protocol has a low TVL, or if it is readily hacked, the SC will be set lower to make the insurance price more market sensitive.
-
-\subsection{Risk Impact}\label{subsec:risk-impact}
-
-The risk rises by one base point for each SC purchased from the pool.
-The risk falls by one base point for each SC resolved without any risk occurring.
-For every SC claimed as a result of hack/dePeg/rug pull incident, the risk stays unchanged.
-
-\begin{align} Risk_{new} = \left\{
-\begin{aligned}
-Risk_{old} + N * 1\%&, {sold\,N\,SCs}\\
-Risk_{old} - N * 1\%&, {N\,SCs\,settled} \\
-Risk_{old} &, {N\,SCs\,claimed}
-\end{aligned}\right.
-\end{align}
-
-In this method, the smart contract modifies the risk based on the number of SCs purchased and settled.
-As a result, the contract can eventually calculate the insurance price with the risk, which is the IV in the American binary option equation.
-
-\subsection{Insurance Price}\label{subsec:insurance-price}
-The American binary option formula is as follows:
-\begin{equation}
-	\begin{split}
-	     P_{insurance} =
-			\frac{1}{2}e^{a(\xi-b)}\{1+sgn(a){erf}\left(\frac{bT-a}{\sqrt {2T}}\right) \\
-	+ e^{2ab}[1-sgn(a){erf}(\frac{bT+a}{\sqrt {2T}})] \}
-	\end{split}\label{eq:American binary option}
-\end{equation}
-
-where:
-\begin{equation}
-	a = \ln(\frac{K}{S}), \xi = \frac{r-q}{\sigma}, b = \sqrt {\xi^2 + 2r}
-\end{equation}
-
-We use this American binary option formula to calculate the insurance price.
-
-Unlike other protocols in which the insurance premium is fixed or linear to the coverage, MetaDefender is inspired by the option market, and the insurance price is a dynamic surface as the coverage and period change.
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{insurance_price_rate_surface} % Figure image
-	\caption{Price Changes with the Risk and Expiry Time} % Figure caption
-	\label{surface} % Label for referencing with \ref{bear}
-\end{figure}
-
-On the surface, the insurance price remains relatively low when the risk is less than 0.4, but it rapidly increases when the risk exceeds 0.4 and the expiry time reaches one year.
-When the risk is close to 1.0, it signifies that people have lost faith in this DeFi protocol, and if you buy 100USDT coverage for three years, you will pay more than 70USDT.
+\section{Dynamic Pricing Model}\label{sec:dynamic-pricing-model}
+\input{paragraphs/dynamic-pricing-model}
 
 \section{Epoch Management}\label{sec:epoch-management}
+\input{paragraphs/epoch-management}
 
-Quisque lacinia, purus id mattis gravida, sem enim fringilla erat, non dapibus est tellus pellentesque velit. Vivamus pretium sem quis leo placerat, at dignissim ex iaculis. Donec neque tortor, pharetra quis vestibulum id, tempus scelerisque mi. Cras in mattis est. Integer nec lorem rutrum, semper ligula bibendum, iaculis neque. Sed in nunc placerat, viverra dui in, fringilla sem. Sed quis rutrum magna, vitae pellentesque eros.
+\section{Risk Reserve}\label{sec:risk-reserve}
+\input{paragraphs/risk-reserve}
 
-Praesent maximus mauris vitae nisl pulvinar, at tristique tortor aliquam. Etiam sit amet nunc in nulla vulputate sollicitudin. Aliquam erat volutpat. Praesent pharetra gravida cursus. Quisque vulputate lacus nunc. Integer orci ex, porttitor quis sapien id, eleifend gravida mi. Etiam efficitur justo eget nulla congue mattis. Duis commodo vel arcu a pretium. Aenean eleifend viverra nisl, nec ornare lacus rutrum in.
-
-Vivamus pulvinar ac eros eu pellentesque. Duis nibh felis, sagittis sed lacus at, sagittis mattis nisi. Fusce ante dui, tincidunt in scelerisque ut, sagittis at magna. Fusce tincidunt felis et odio tincidunt imperdiet. Cras ut facilisis nisl. Aliquam vitae consequat metus, eget gravida augue. In imperdiet justo quis nulla venenatis accumsan. Aliquam aliquet consectetur tortor, at sollicitudin sapien porta sed. Donec efficitur mauris id rhoncus volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed bibendum purus dapibus tincidunt euismod. Nullam malesuada ultrices lacus, ut tincidunt dolor. Etiam imperdiet quam eget elit tincidunt scelerisque. Curabitur ut ullamcorper dui. Cras gravida porta leo, ut lobortis nisl venenatis pulvinar. Proin non semper nulla.
-
-Praesent pretium nisl purus, id mollis nibh efficitur sed. Sed sit amet urna leo. Nulla sed imperdiet sem. Donec ut diam tristique, faucibus ligula vel, varius est. In ipsum ligula, elementum vitae velit ac, viverra tincidunt enim. Phasellus gravida diam id nisl interdum maximus. Ut semper, tortor vitae congue pharetra, justo odio commodo urna, vel tempus libero ex et risus. Vivamus commodo felis non venenatis rutrum. Sed pulvinar scelerisque augue in porta. Sed maximus libero nec tellus malesuada elementum. Proin non augue posuere, pellentesque felis viverra, varius urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim urna eget diam dictum, eget facilisis libero pulvinar.
-
-Aliquam ex tellus, hendrerit sed odio sit amet, facilisis elementum enim. Suspendisse potenti. Integer molestie ac augue sit amet fermentum. Vivamus ultrices ante nulla, vitae venenatis ipsum ullamcorper sed. Phasellus gravida felis sapien, ac porta purus pharetra quis. Sed eget augue tellus. Nam vitae hendrerit arcu, id iaculis ipsum. Pellentesque sed magna tortor.
-
-In ac tempus diam. Sed nec lobortis massa, suscipit accumsan justo. Quisque porttitor, ligula a semper euismod, urna diam dictum sem, sed maximus risus purus sit amet felis. Fusce elementum maximus nisi a mattis. Nulla vitae elit erat. Integer sit amet commodo risus, eget elementum nulla. Donec ultricies erat sit amet sem commodo iaculis. Donec euismod volutpat lacus, ut tempor est lacinia a. Vivamus auctor condimentum tincidunt. Praesent sed finibus urna. Sed pellentesque blandit magna et rhoncus.
-
-Integer vel turpis nec tellus sodales malesuada a vel odio. Fusce et lectus eu nibh rhoncus tempus vel nec elit. Suspendisse commodo orci velit, lacinia dictum odio accumsan et. Vivamus libero dui, elementum vel nibh non, fermentum venenatis risus. Aliquam sed sapien ac orci sodales tempus a eget dui. Morbi non dictum tortor, quis tincidunt nibh. Proin ut tincidunt odio.
-
-Pellentesque ac nisi dolor. Pellentesque maximus est arcu, eu scelerisque est rutrum vitae. Mauris ullamcorper vulputate vehicula. Praesent fermentum leo ac velit accumsan consectetur. Aliquam eleifend ex eros, ut lacinia tellus volutpat non. Pellentesque sit amet cursus diam. Maecenas elementum mattis est, in tincidunt ex pretium ac. Integer ultrices nunc rutrum, pretium sapien vitae, lobortis velit.
-
+\section{DAO}\label{sec:dao}
+\input{paragraphs/DAO}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
-
 \printbibliography[title={Bibliography}] % Print the bibliography, section title in curly brackets
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+\bibitem[Marcus, Alan and Shaked, Israel, 1984]{Marcus et al., 1984}
+Marcus, Alan and Shaked, Israel.
+(1984).
+\newblock The Valuation of FDIC Deposit Insurance Using Option-pricing Estimates
+\newblock {\em Journal of Money, Credit and Banking}, 16:446--60.
+\bibitem[RONN, EHUD I. and VERMA, AVINASH K.]{RONN et al., 1986}
+RONN, EHUD I. and VERMA, AVINASH K.
+(1986).
+\newblock Pricing Risk-Adjusted Deposit Insurance: An Option-Based Model
+\newblock {\em Journal of Money, Credit and Banking}, 41:871--895.
+\bibitem[Laeven and Luc]{Laeven et al., 2002}
+Laeven, Luc.
+(2002).
+\newblock Bank Risk and Deposit Insurance
+\newblock {\em The World Bank Economic Review}, 16:109--137.
+\bibitem[Falkenheim, Michael and Pennacchi, George]{Falkenheim et al., 2003}
+Falkenheim, Michael and Pennacchi, George.
+(2003).
+\newblock The cost of deposit insurance for privately held banks: A market comparable approach
+\newblock {\em Journal of Financial Services Research}, 24:121--148.
+\end{thebibliography}
 
 %----------------------------------------------------------------------------------------
 

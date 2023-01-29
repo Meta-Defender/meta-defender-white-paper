@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.23)  24 JAN 2023 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.23)  29 JAN 2023 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -716,48 +716,48 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-LaTeX Info: Redefining \oldstylenums on input line 47.
+LaTeX Info: Redefining \oldstylenums on input line 25.
 LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
-t line 47.
+t line 25.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 47.
+(Font)              scaled to size 10.0pt on input line 25.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
 (/Users/vincentlu/Desktop/metadefender/docs/WhitePaper/out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Info: Redefining \microtypecontext on input line 47.
-Package microtype Info: Applying patch `item' on input line 47.
-Package microtype Info: Applying patch `toc' on input line 47.
-Package microtype Info: Applying patch `eqnum' on input line 47.
-Package microtype Info: Applying patch `footnote' on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Info: Redefining \microtypecontext on input line 25.
+Package microtype Info: Applying patch `item' on input line 25.
+Package microtype Info: Applying patch `toc' on input line 25.
+Package microtype Info: Applying patch `eqnum' on input line 25.
+Package microtype Info: Applying patch `footnote' on input line 25.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 47.
+LaTeX Info: Redefining \showhyphens on input line 25.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -803,7 +803,7 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 47.
+(lastpage)             ! on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -858,10 +858,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (/Users/vincentlu/Desktop/metadefender/docs/WhitePaper/out/main.bbl)
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
-9.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
+7.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -871,14 +871,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 27.
 
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+
+ []
+
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 39.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/XCharter-TLF/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 31.34015pt on input line 39.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 46.08823pt on input line 39.
+Package lettrine.sty Info: Targeted height = 31.34015pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 31.34pt (\color {DarkGoldenrod}{T}
+);
+(lettrine.sty)             reported on input line 39.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 45.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 45.
+(./paragraphs/background.tex
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -886,8 +910,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -896,48 +919,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 49.
+(Font)              scaled to size 7.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 49.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
-
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 61.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/XCharter-TLF/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
+(Font)              scaled to size 8.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 31.34015pt on input line 61.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 46.08823pt on input line 61.
-Package lettrine.sty Info: Targeted height = 31.34015pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 31.34pt (\color {DarkGoldenrod}{T}
-);
-(lettrine.sty)             reported on input line 61.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 61.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 67.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 67.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 69.
+(Font)              scaled to size 6.0pt on input line 1.
+)
+(./paragraphs/introduction.tex
 LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on inp
-ut line 84.
+ut line 5.
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/xcharter/TS1XCharter-TLF.fd
 File: TS1XCharter-TLF.fd 2020/05/25 (msharpe) Font definitions for TS1/XCharter
 -TLF.
 )
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 84.
+(Font)              scaled to size 10.0pt on input line 5.
 Package microtype Info: Character `textbardbl ' is missing
 (microtype)             in font `TS1/XCharter-TLF/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -945,57 +942,122 @@ Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/XCharter-TLF/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 84.
-<workflow_process_on.jpg, id=1, 1210.5225pt x 871.255pt>
-File: workflow_process_on.jpg Graphic file (type jpg)
-<use workflow_process_on.jpg>
-Package pdftex.def Info: workflow_process_on.jpg  used on input line 101.
+(Font)              scaled to size 10.0pt on input line 5.
+)
+(./paragraphs/solution-overview.tex
+<../workflow_process_on.jpg, id=1, 1210.5225pt x 871.255pt>
+File: ../workflow_process_on.jpg Graphic file (type jpg)
+<use ../workflow_process_on.jpg>
+Package pdftex.def Info: ../workflow_process_on.jpg  used on input line 5.
 (pdftex.def)             Requested size: 231.88997pt x 166.89618pt.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 102.
+(Font)              scaled to size 9.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 102.
+(Font)              scaled to size 9.0pt on input line 6.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 102.
+(Font)              scaled to size 9.0pt on input line 6.
+ [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]) (./paragraphs/dynamic-pricing-model.tex
+
+LaTeX Warning: Citation 'Marcus et al.' on page 2 undefined on input line 1.
 
 
-]
+LaTeX Warning: Citation '1984' on page 2 undefined on input line 1.
+
+
+LaTeX Warning: Citation 'RONN et al.' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation '1986' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Laeven et al.' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation '2002' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'Falkenheim et al.' on page 2 undefined on input line 2
+.
+
+
+LaTeX Warning: Citation '2003' on page 2 undefined on input line 2.
+
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 133.
-
-[2 <./workflow_process_on.jpg>]
-<insurance_price_rate_surface.png, id=21, 642.4pt x 481.8pt>
+(Font)              scaled to size 12.0pt on input line 9.
+[2 </Users/vincentlu/Desktop/metadefender/docs/WhitePaper/out/../workflow_proce
+ss_on.jpg>]
+<insurance_price_rate_surface.png, id=19, 642.4pt x 481.8pt>
 File: insurance_price_rate_surface.png Graphic file (type png)
 <use insurance_price_rate_surface.png>
-Package pdftex.def Info: insurance_price_rate_surface.png  used on input line 1
-96.
+Package pdftex.def Info: insurance_price_rate_surface.png  used on input line 7
+2.
 (pdftex.def)             Requested size: 231.88997pt x 173.91837pt.
- [3 <./insurance_price_rate_surface.png (PNG copy)>]
+) (./paragraphs/epoch-management.tex
+<net_delta_impact.jpg, id=20, 958.58125pt x 716.6775pt>
+File: net_delta_impact.jpg Graphic file (type jpg)
+<use net_delta_impact.jpg>
+Package pdftex.def Info: net_delta_impact.jpg  used on input line 18.
+(pdftex.def)             Requested size: 185.51268pt x 138.69626pt.
+ [3 <./insurance_price_rate_surface.png (PNG copy)> <./net_delta_impact.jpg>]) 
+(./paragraphs/risk-reserve.tex)
+(./paragraphs/DAO.tex)
 
-LaTeX Warning: Empty bibliography on input line 226.
+LaTeX Warning: Empty bibliography on input line 72.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--79
+[]\T1/XCharter-TLF/m/n/10 (+20) Marcus,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
+[]\T1/XCharter-TLF/m/n/10 (+20) RONN,
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 80--84
+\T1/XCharter-TLF/m/n/10 (+20) EHUD I. and VERMA, AVINASH K. (1986).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+[]
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 90--94
+\T1/XCharter-TLF/m/n/10 (+20) (2003).  The cost of de-posit in-sur-ance for
+ []
 
 
 AED: lastpage setting LastPage
-[4
+[4] (/Users/vincentlu/Desktop/metadefender/docs/WhitePaper/out/main.aux)
 
-] (/Users/vincentlu/Desktop/metadefender/docs/WhitePaper/out/main.aux)
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18956 strings out of 478268
- 349981 string characters out of 5846347
- 1080460 words of memory out of 5000000
- 36636 multiletter control sequences out of 15000+600000
- 611187 words of font info for 230 fonts, out of 8000000 for 9000
+ 19191 strings out of 478268
+ 355252 string characters out of 5846347
+ 1078508 words of memory out of 5000000
+ 36849 multiletter control sequences out of 15000+600000
+ 607871 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,17n,71p,1903b,1728s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,17n,71p,1899b,1728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}{
 /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/xcharter/xch1_co4ru4.enc}{/u
 sr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
@@ -1005,18 +1067,18 @@ l/texlive/2022/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/
 local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
 ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
-ve/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
 Output written on /Users/vincentlu/Desktop/metadefender/docs/WhitePaper/out/mai
-n.pdf (4 pages, 469423 bytes).
+n.pdf (4 pages, 517752 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 63499 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 61968 words of extra memory for PDF output out of 74296 (max. 10000000)
 
