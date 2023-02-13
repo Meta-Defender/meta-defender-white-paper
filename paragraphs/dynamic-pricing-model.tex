@@ -2,14 +2,14 @@
 Following that, \cite{RONN et al., 1986}, \cite{Laeven et al., 2002}, and \cite{Falkenheim et al., 2003} conducted more study on insurance and option comparisons.
 
 The DeFi insurance market, like the traditional insurance market, will pay either a defined amount of money known as policy coverage or nothing at all.
-If the risk/rug pull occurred during the time designated by the policy buyer, the policy buyer will get the claim if the application is granted by the DAO; otherwise, the underwriters will claim the premium and the policy buyer will receive nothing.
+If the risk/rekt occurred during the time designated by the policy buyer, the policy buyer will get the claim if the application is granted by the DAO; otherwise, the underwriters will claim the premium and the policy buyer will receive nothing.
 This scenario is quite similar to the American binary option.
 If the underlying price reaches the strike price before the expiration period, the option can be exercised at any moment before the expiry time.
 
 \subsection{Initialization}\label{subsec:initialization}
 
 Before a certain DeFi project is placed on the MetaDefender, Our team will thoroughly evaluate the project's safety, such as contract audit.
-We'll start by estimating the likelihood of the hack/dePeg/rug pull.
+We'll start by estimating the likelihood of the hack/dePeg/rekt.
 Then we'll create an American binary option model with the same likelihood of hitting the strike price and add it to the smart contract.
 These parameters will be inaccurate when initiated, however they will be changed by insurance buyers and underwriters in the market.
 
@@ -36,7 +36,7 @@ If the DeFi protocol has a low TVL, or if it is readily hacked, the SC will be s
 
 The risk rises by one base point for each SC purchased from the pool.
 The risk falls by one base point for each SC resolved without any risk occurring.
-For every SC claimed as a result of hack/dePeg/rug pull incident, the risk stays unchanged.
+For every SC claimed as a result of hack/dePeg/rekt incident, the risk stays unchanged.
 
 \begin{align} Risk_{new} = \left\{
 \begin{aligned}
@@ -69,7 +69,7 @@ We use this American binary option formula to calculate the insurance price.
 Unlike other protocols in which the insurance premium is fixed or linear to the coverage, MetaDefender is inspired by the option market, and the insurance price is a dynamic surface as the coverage and period change.
 
 \begin{figure}[H]
-	\includegraphics[width=\linewidth]{insurance_price_rate_surface} % Figure image
+	\includegraphics[width=\linewidth]{./graphs/insurance_price_rate_surface} % Figure image
 	\caption{Price Changes with the Risk and Expiry Time} % Figure caption
 	\label{fig:surface} % Label for referencing with \ref{bear}
 \end{figure}
